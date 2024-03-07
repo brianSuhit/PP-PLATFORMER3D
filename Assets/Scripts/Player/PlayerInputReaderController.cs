@@ -21,7 +21,7 @@ public class PlayerInputReaderController : MonoBehaviour
                 Debug.LogError($"{name} character jump is null");
                 return;
             }
-            //characterJump.Jump();
+            characterJump.Jump();
         }
     }
 }
